@@ -1,0 +1,6 @@
+{
+  "name": "DroidVM",
+  "description": "Android Virtual Machine & Custom GSI ROM Sandbox Simulator for testing Treble custom ROMs, system images, and fastboot environments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

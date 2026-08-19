@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Soft Drop Shadow on White Background -->
+    <path
+        android:pathData="M24,76 C24,68 84,68 84,76 C84,82 24,82 24,76 Z"
+        android:fillColor="#1F0F172A" />
+
+    <!-- ============================================== -->
+    <!-- SHINY 3D ANDROID ROBOT HEAD (TOP HALF)         -->
+    <!-- ============================================== -->
+
+    <!-- Android Left Antenna -->
+    <path
+        android:pathData="M44,32 L39,23"
+        android:strokeColor="#0284C7"
+        android:strokeWidth="3.6"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M44,32 L39,23"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M39,23m-1.5,0a1.5,1.5 0 1,1 3,0a1.5,1.5 0 1,1 -3,0"
+        android:fillColor="#E0F2FE" />
+
+    <!-- Android Right Antenna -->
+    <path
+        android:pathData="M64,32 L69,23"
+        android:strokeColor="#0284C7"
+        android:strokeWidth="3.6"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M64,32 L69,23"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M69,23m-1.5,0a1.5,1.5 0 1,1 3,0a1.5,1.5 0 1,1 -3,0"
+        android:fillColor="#E0F2FE" />
+
+    <!-- Shiny 3D Metallic Android Dome -->
+    <path
+        android:pathData="M34,51 C34,38.5 43,30.5 54,30.5 C65,30.5 74,38.5 74,51 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="40"
+                android:startY="30"
+                android:endX="68"
+                android:endY="52"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFF" />
+                <item android:offset="0.15" android:color="#7DD3FC" />
+                <item android:offset="0.45" android:color="#0284C7" />
+                <item android:offset="0.8" android:color="#0369A1" />
+                <item android:offset="1.0" android:color="#082F49" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Shiny Specular Glare Reflection on Android Dome -->
+    <path
+        android:pathData="M37,46 C37,40 44,33 54,32 C48,33 40,38 39,47 Z"
+        android:fillColor="#E6FFFFFF" />
+
+    <!-- Android Eye Left -->
+    <path
+        android:pathData="M45.5,42.5m-3,0a3,3,0 1,1 6,0a3,3,0 1,1 -6,0"
+        android:fillColor="#091E3A" />
+    <path
+        android:pathData="M45.5,42.5m-1.8,0a1.8,1.8 0 1,1 3.6,0a1.8,1.8 0 1,1 -3.6,0"
+        android:fillColor="#00F0FF" />
+    <path
+        android:pathData="M44.8,41.8m-0.7,0a0.7,0.7 0 1,1 1.4,0a0.7,0.7 0 1,1 -1.4,0"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Android Eye Right -->
+    <path
+        android:pathData="M62.5,42.5m-3,0a3,3,0 1,1 6,0a3,3,0 1,1 -6,0"
+        android:fillColor="#091E3A" />
+    <path
+        android:pathData="M62.5,42.5m-1.8,0a1.8,1.8 0 1,1 3.6,0a1.8,1.8 0 1,1 -3.6,0"
+        android:fillColor="#00F0FF" />
+    <path
+        android:pathData="M61.8,41.8m-0.7,0a0.7,0.7 0 1,1 1.4,0a0.7,0.7 0 1,1 -1.4,0"
+        android:fillColor="#FFFFFF" />
+
+    <!-- ============================================== -->
+    <!-- PROMINENT & CLEAR LINEAGE OS 3-RING LOGO EMBLEM-->
+    <!-- (Authentic LineageOS 3 connected rings)         -->
+    <!-- ============================================== -->
+
+    <!-- LineageOS Left-to-Center Connecting Bar -->
+    <path
+        android:pathData="M27,66 L54,66"
+        android:strokeColor="#0F766E"
+        android:strokeWidth="6.0"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M27,66 L54,66"
+        android:strokeColor="#0D9488"
+        android:strokeWidth="4.0"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M27,65 L54,65"
+        android:strokeColor="#2DD4BF"
+        android:strokeWidth="1.6"
+        android:strokeLineCap="round" />
+
+    <!-- LineageOS Center-to-Right Connecting Bar -->
+    <path
+        android:pathData="M54,66 L81,66"
+        android:strokeColor="#0369A1"
+        android:strokeWidth="6.0"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M54,66 L81,66"
+        android:strokeColor="#0284C7"
+        android:strokeWidth="4.0"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M54,65 L81,65"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.6"
+        android:strokeLineCap="round" />
+
+    <!-- LineageOS LEFT RING (Outer Ring + Clear Hollow Center) -->
+    <path
+        android:pathData="M27,66m-7.5,0a7.5,7.5 0 1,1 15,0a7.5,7.5 0 1,1 -15,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="22"
+                android:startY="60"
+                android:endX="32"
+                android:endY="72"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#5EEAD4" />
+                <item android:offset="0.4" android:color="#14B8A6" />
+                <item android:offset="1.0" android:color="#0F766E" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Left Ring Inner Cutout (Authentic Lineage Ring Form) -->
+    <path
+        android:pathData="M27,66m-3.5,0a3.5,3.5 0 1,1 7,0a3.5,3.5 0 1,1 -7,0"
+        android:fillColor="#FFFFFF" />
+    <!-- Left Ring Specular Highlight -->
+    <path
+        android:pathData="M25,63.5m-1.2,0a1.2,1.2 0 1,1 2.4,0a1.2,1.2 0 1,1 -2.4,0"
+        android:fillColor="#F0FFFFFF" />
+
+    <!-- LineageOS RIGHT RING (Outer Ring + Clear Hollow Center) -->
+    <path
+        android:pathData="M81,66m-7.5,0a7.5,7.5 0 1,1 15,0a7.5,7.5 0 1,1 -15,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="76"
+                android:startY="60"
+                android:endX="86"
+                android:endY="72"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#7DD3FC" />
+                <item android:offset="0.4" android:color="#0284C7" />
+                <item android:offset="1.0" android:color="#0369A1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Right Ring Inner Cutout (Authentic Lineage Ring Form) -->
+    <path
+        android:pathData="M81,66m-3.5,0a3.5,3.5 0 1,1 7,0a3.5,3.5 0 1,1 -7,0"
+        android:fillColor="#FFFFFF" />
+    <!-- Right Ring Specular Highlight -->
+    <path
+        android:pathData="M79,63.5m-1.2,0a1.2,1.2 0 1,1 2.4,0a1.2,1.2 0 1,1 -2.4,0"
+        android:fillColor="#F0FFFFFF" />
+
+    <!-- LineageOS CENTER MAIN RING (Larger Prominent Center Ring) -->
+    <path
+        android:pathData="M54,66m-10.5,0a10.5,10.5 0 1,1 21,0a10.5,10.5 0 1,1 -21,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="46"
+                android:startY="58"
+                android:endX="62"
+                android:endY="74"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#E0F2FE" />
+                <item android:offset="0.3" android:color="#00F0FF" />
+                <item android:offset="0.75" android:color="#0D9488" />
+                <item android:offset="1.0" android:color="#042F2E" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Center Ring Inner Cutout (White with Glow Core) -->
+    <path
+        android:pathData="M54,66m-5.2,0a5.2,5.2 0 1,1 10.4,0a5.2,5.2 0 1,1 -10.4,0"
+        android:fillColor="#FFFFFF" />
+    <!-- Center Core Emblem Dot -->
+    <path
+        android:pathData="M54,66m-2.2,0a2.2,2.2 0 1,1 4.4,0a2.2,2.2 0 1,1 -4.4,0"
+        android:fillColor="#0F766E" />
+    <!-- Center Ring Glossy Specular Glint -->
+    <path
+        android:pathData="M50.5,61m-1.6,0a1.6,1.6 0 1,1 3.2,0a1.6,1.6 0 1,1 -3.2,0"
+        android:fillColor="#F0FFFFFF" />
+
+</vector>
